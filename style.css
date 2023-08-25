@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, ul {
+.header, ul, .hero, .left {
     display: flex;
 }
 
@@ -16,7 +16,7 @@ body {
     padding: 30px 300px;
 }
 
-.header ul {
+.header ul, .sub {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 400;
@@ -27,4 +27,33 @@ ul {
     margin: 0;
     gap: 30px;
     align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 150px 300px;
+}
+
+.left {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;    
+}
+
+.main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
 }
