@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, ul, .hero, .left {
+.header, ul, .hero, .left, .row {
     display: flex;
 }
 
@@ -56,4 +56,35 @@ button {
     border: none;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.info {
+    text-align: center;
+    margin: 50px 0 200px 0;
+}
+
+.info span {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.item {
+    width: 175px;
+    color: rgb(99, 99, 99);
+    font-size: 19px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 175px;
+    margin-bottom: 10px;
 }
