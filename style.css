@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, ul, .hero, .left, .row, .quote {
+.header, ul, .hero, .left, .row, .quote, .cta {
     display: flex;
 }
 
@@ -110,4 +110,35 @@ button {
     font-weight: 900;
     min-width: 790px;
     text-align: right;
+}
+
+.cta {
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 110px 300px;
+    padding: 60px 140px;
+    border-radius: 10px;
+}
+
+.cmain {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.csub {
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+.whi-bor {
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 22px;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 50px 0;
 }
