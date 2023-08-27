@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.header, ul, .hero, .left, .row {
+.header, ul, .hero, .left, .row, .quote {
     display: flex;
 }
 
@@ -60,7 +60,7 @@ button {
 
 .info {
     text-align: center;
-    margin: 50px 0 200px 0;
+    margin: 50px 0 140px 0;
 }
 
 .info span {
@@ -87,4 +87,27 @@ button {
     border-radius: 15px;
     height: 175px;
     margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 140px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qmain {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 790px;
+}
+
+.qsub {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    min-width: 790px;
+    text-align: right;
 }
